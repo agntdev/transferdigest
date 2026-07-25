@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Request full details for a specific transfer in summary view"
+              "text": "Open a transfer from a summary to view its full details."
             }
           }
         ],

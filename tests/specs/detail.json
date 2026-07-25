@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "View full transfer details by ID"
+              "text": "Send the transfer reference from its summary."
             }
           }
         ],
