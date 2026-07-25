@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/subscribe",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Confirm notification subscription status"
+            }
+          }
+        ],
+        "send": {
+          "text": "/subscribe"
+        }
+      }
+    ]
+  }
+]
