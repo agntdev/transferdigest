@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Disable daily notifications"
+              "text": "Daily summaries aren’t set up yet. Add the bot’s durable storage, then try again."
             }
           }
         ],

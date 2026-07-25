@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Request immediate summary of today's transfers"
+              "text": "No activity in this time window yet."
             }
           }
         ],

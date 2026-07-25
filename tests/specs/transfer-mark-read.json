@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Acknowledge having seen a specific transfer"
+              "text": "Open a transfer from a summary to mark it as read."
             }
           }
         ],

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/since rejects an invalid date",
+    "steps": [
+      {
+        "send": { "text": "/since yesterday" },
+        "expect": [{ "method": "sendMessage", "payload": { "text": "Use a date like 2026-07-25, then try again." } }]
+      }
+    ]
+  },
+  {
+    "name": "/since returns the empty state for a valid date",
+    "steps": [
+      {
+        "send": { "text": "/since 2026-07-25" },
+        "expect": [{ "method": "sendMessage", "payload": { "text": "No activity in this time window yet." } }]
+      }
+    ]
+  }
+]

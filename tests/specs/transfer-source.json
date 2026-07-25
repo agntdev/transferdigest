@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Open authoritative source link for a transfer"
+              "text": "Open a transfer’s details to see its source links."
             }
           }
         ],
