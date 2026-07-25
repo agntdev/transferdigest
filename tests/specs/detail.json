@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/detail",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "View full transfer details by ID"
+            }
+          }
+        ],
+        "send": {
+          "text": "/detail"
+        }
+      }
+    ]
+  }
+]
