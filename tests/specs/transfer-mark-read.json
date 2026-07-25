@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Mark as read",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Acknowledge having seen a specific transfer"
+            }
+          }
+        ],
+        "send": {
+          "callback": "transfer:mark_read"
+        }
+      }
+    ]
+  }
+]
